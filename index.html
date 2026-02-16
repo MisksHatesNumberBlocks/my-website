@@ -2,39 +2,52 @@
 <html>
   <head>
     <style>
-      h1, p {
-        color: gray;
+        body {
+        background-color: #5f6ee7;
+        color: #5fc9e7;
+        font-family: 'Roboto', sans-serif;
+      }
+      .content {
+        border: 3px solid;
+        border-radius: 20px;
+        border-color: #5fa1e7;
+        background-color: #5fa1e7;
+      }
+      .content p {
+        font-family: 'Comic Neue', sans-serif;
+        font-weight: 700;
+      }
+      #heloworld {
+        font-family: 'Monospace', 'Noto Emoji', sans-serif;
       }
       button {
         border: 2px solid;
-        border-color: gray;
-        background-color: #e5e5e5;
-        color: gray;
+        border-color: #5fa1e7;
+        border-radius: 5px;
+        background-color: #5fc9e7;
+        color: #5fa1e7;
+        font-family: 'Archivo Black', sans-serif;
+        transition: border-color 0.2s, background-color 0.2s;
+      }
+      button:hover {
+        border-color: #5fc9e7;
+        background-color: #85daeb;
       }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mateus's Webpage</title>
-    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Emoji|Comic+Neue">
+    <link href="https://fonts.cdnfonts.com/css/archivo-black" rel="stylesheet">
     <script src="detect.js"></script>
   </head>
   <body>
-    <!comment>
-    <img src="cubeLogo.svg" width="70">
-    <h1>Hello 👋</h1>
-    <img src="castle-xyz.gif">
-    <p>It's @Misks81633 and again, they changed the website.</p>
-    <button onclick="window.location.replace('https://castle.xyz/@Misks8163')">My castle account</button>
-    <button onclick="window.location.replace('pages/about-me.html')">About me</button>
-    <button>Non-Games</button>
-    <hr style="border-top: 3px dotted #bbb;">
-    <p style="text-align: center;">-----Links-----</p>
-    <a href="https://duducat.moe"><img src="assets/duducat.svg"></a>
-    <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button11.gif"></a>
-    <a href="https://castle.xyz"><img src="https://vuvien.nekoweb.org/c.gif"></a>
-    <a href="https://vuvien.nekoweb.org"><img src="https://vuvien.nekoweb.org/vbutton3.png"></a>
-    <a href="https://android.com"><img src="https://bugdroid.org/meta/button-bugdroid-modern.gif"></a>
-    <!More coming soon>
-    <hr style="border-top: 3px dotted #bbb;">
-    <p style="text-align: center;">This site was made with ❤ by @misks81633</p>
+    <body>
+    <section class="content">
+        <h1 id="heloworld">Hello World! 👋</h1>
+        <p>It's @Misks8163 and yet again, they changed the website.</p>
+        <div class="buttons">
+            <button> About me</button> <br>
+            <button> My stuff</button>
+        </div>
+    </section>
   </body>
 </html>
