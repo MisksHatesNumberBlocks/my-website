@@ -2,37 +2,36 @@
 <html>
   <head>
     <style>
-      h1, p {
-        color: gray;
-      }
-      button {
-        border: 2px solid;
-        border-color: gray;
-        background-color: #e5e5e5;
-        color: gray;
-      }
-      
+     * {
+       font-family: Monospace;
+       text-align: center;
+       color: white;
+     }
+     body {
+       background-color: #001d2a;
+     }
+     h1 {
+       font-size: 80px;
+     }
+     p {
+       font-size: 15px;
+     }
+     button {
+       background-color: #085562;
+       border: 3px solid #085562;
+       border-radius: 5px;
+     }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitcount Single">
-    <title>Mateus's Webpage</title>
   </head>
   <body>
-    <h1 style="
-    font-family: 'Bitcount Single', sans-serif;
-    font-size: 80px;
-    text-align: center;
-    " id="404">404</h1>
-    <p style="
-    text-align: center;
-    ">Can you stop messing with the url?</p>
-    <button onclick="window.location.replace('https://miskshatesnumberblocks.github.io/')" style="
-    display: block;
-    margin: auto;
-    "> < Go back</button>
-    <hr style="
-    border-top: 3px dotted #bbb;
-    ">
-    <p>This site was made with ❤ by @misks8163</p>
+    <h1>404</h1>
+    <p>Page not found</p>
+    <button onclick="redirect('index.html')">Go back</button>
+    <script>
+    function redirect(url) {
+      window.location.replace(url);
+    }
+    </script>
   </body>
 </html>
