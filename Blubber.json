@@ -1,0 +1,18 @@
+{
+  "snapshot": {
+    "library": {},
+    "actors": [],
+    "actorBlueprintInherit": true,
+    "sceneProperties": {
+      "backgroundColor": { "r": 0.96078, "g": 0.62745, "b": 0.59215, "a": 1 },
+      "coordinateSystemVersion": 2,
+      "clock": { "tempo": 120, "beatsPerBar": 4, "stepsPerBeat": 4 }
+    },
+    "linkTargetDeckIds": []
+  },
+  "isChanged": true,
+  "experimentalWeb": {
+    "enabled": true,
+    "bundle": "<!doctype html><html><body><p>This is a test</p></body></html>"
+  }
+}
